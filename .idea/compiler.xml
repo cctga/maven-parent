@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka-server" />
         <module name="eureka-client" />
+        <module name="eureka-server" />
+        <module name="hyxtrix" />
         <module name="eureka-client-order" />
         <module name="hystrix" />
-        <module name="hyxtrix" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

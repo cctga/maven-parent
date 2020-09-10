@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: config-server
+#  使用本地配置的方式
+#  profiles:
+#    active: native
+#  使用 Git 配置的方式
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/nogam/spring-cloud-config.git
+          username: 1135892360@qq.com
+          password: qq1135892360
+server:
+  port: 8888

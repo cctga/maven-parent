@@ -1,0 +1,12 @@
+# 该文件被 spring boot 加载的优先级高于 bootstrap.yml
+# 即：当有两个相同配置项，如 port 会使用本文件中的配置
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      profile: prod
+      uri: http://localhost:8888/
+      label: master # Git 分支，默认 master
+server:
+  port: 8802

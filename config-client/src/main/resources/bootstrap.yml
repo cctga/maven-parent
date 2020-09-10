@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      profile: prod
+      uri: http://localhost:8888/
+server:
+  # 该端口和 application.yml 配置文件不同，目的是为了测试本文件加载的优先级低于 application.yml
+  port: 8801

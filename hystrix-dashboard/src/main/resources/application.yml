@@ -1,0 +1,10 @@
+server:
+  port: 8031
+spring:
+  application:
+    name: client-hyxtrix-dashboard
+
+# 允许查询该目标的面板信息，否则会报：If it should be allowed add it to hystrix.dashboard.proxyStreamAllowList.
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "localhost"

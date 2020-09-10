@@ -7,6 +7,26 @@
       <option name="url" value="https://repo.maven.apache.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="1b1f6778-1ce6-4631-9681-438f119b388b" />
+      <option name="name" value="1b1f6778-1ce6-4631-9681-438f119b388b" />
+      <option name="url" value="https://maven.aliyun.com/repository/apache-snapshots" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="a8ad7da9-2c93-4fdb-9bb2-990c776ab752" />
+      <option name="name" value="a8ad7da9-2c93-4fdb-9bb2-990c776ab752" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/groups/public" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="3bc8a7a5-f927-47e0-b655-77c940bdca40" />
+      <option name="name" value="3bc8a7a5-f927-47e0-b655-77c940bdca40" />
+      <option name="url" value="https://maven.aliyun.com/repository/central" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="http://maven.aliyun.com/nexus/content/repositories/central/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Maven Central repository" />
       <option name="url" value="https://repo1.maven.org/maven2" />

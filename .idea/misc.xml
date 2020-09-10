@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/hyxtrix/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-client/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway-zuul/pom.xml" />
       </list>
     </option>
   </component>
